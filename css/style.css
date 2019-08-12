@@ -18,8 +18,8 @@ Primary use:	One page
 
 [Color codes]
 
-Buttons, etc:	#726FB9 (blue)
-hover color:	#fed136 (yellow)
+Buttons, etc:	#455A64 (blue)
+hover color:	#1565C0 (yellow)
 -------------------------------------------------------------------*/
 
 /*--------------------
@@ -71,7 +71,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #1565C0;
 }
 
 @media (min-width: 768px) {
@@ -104,14 +104,14 @@ section {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #1565C0;
+	border-color: #1565C0
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: #1565C0
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -121,18 +121,18 @@ section {
 	color:#fff
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #fed136;
+	color: #1565C0;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: #1565C0
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color: #455A64
 }
 
 @media (min-width:768px) {
@@ -661,7 +661,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #1565C0;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -672,14 +672,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #455A64;
+    border-color: #455A64;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #455A64;
+    border-color: #455A64;
 }
 
 .btn {
@@ -706,8 +706,8 @@ font-size: 11px;
 
 .btn-xl {
     color: #fff;
-     background-color: #726FB9;
-    border-color: #726FB9;
+     background-color: #1565C0;
+    border-color: #1565C0;
     font-family: "Robot",sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -740,7 +740,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #1565C0;
 }
 /* arrow icon (span tag) */
 #back-top i {
